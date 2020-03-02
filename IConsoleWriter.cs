@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DependencyInjectionExample
 {
-    public interface ICompositionRoot
+    public interface IConsoleWriter
     {
         void LogMessage(string message);
     }
